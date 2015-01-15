@@ -1,0 +1,134 @@
+/*
+color: #00347B;
+*/
+
+/*------------------------------------------------------------------------------
+  GENERAL
+------------------------------------------------------------------------------*/
+body{
+    background-image:url("../img/debut_light.png");
+}
+
+h1,h2,h3,h4,h5,h6{
+     color: #00347B;  
+}
+
+hr{
+   display: block; height: 1px;
+   border: 0; border-top: 1px solid #ccc;
+   margin: 1em 0; padding: 0; 
+}
+
+strong{
+    color: #00347B;  
+}
+
+/*------------------------------------------------------------------------------
+  TITLE
+------------------------------------------------------------------------------*/
+
+div.title-row{
+    margin-top:20px;
+    text-align:center;   
+}
+
+
+.top-contact .table{
+    display:table;
+    margin:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.top-contact .cell{
+    height:50px;
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.top-contact .cell-spacer{
+    width:30px;
+}
+
+.top-contact img, span{
+   display:table-cell;
+   margin:0;
+   padding:0;
+}
+
+
+/*------------------------------------------------------------------------------
+  MISSION STATEMENT
+------------------------------------------------------------------------------*/
+
+.mission-content{
+    background-color:rgba(0,52,223,.04);
+    border:1px solid rgba(0,52,123,.07);
+    padding-top:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.mission-statement{  
+    font-size:150%;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    line-height:1.8;
+}
+
+.icon-row{
+    text-align:left;
+}
+
+.icon-row h1{
+    margin-top:0px;   
+}
+
+.icon-row div.col_4{
+    min-height:200px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color:rgba(0,52,223,.04);
+    
+}
+
+
+.icon-row .padder{
+    padding-left:20px;
+    padding-right:20px;
+    border:1px solid rgba(0,52,123,.07);
+    height:100%;
+    min-height:200px;
+    
+}
+
+.icon-row .padder h1{
+    padding-top:20px;
+}
+    
+
+
+
+/*------------------------------------------------------------------------------
+  TEAM / PROJECTS
+------------------------------------------------------------------------------*/
+
+h3 span{
+    color:#888888;
+    margin-left:5px;
+    font-size:75%;
+    font-variant:small-caps;
+}
+
+h3.project-title{
+    margin-top:0;
+}
+
+/*------------------------------------------------------------------------------
+  CONTACT
+------------------------------------------------------------------------------*/
+div.contact-row{
+    text-align:center;
+}

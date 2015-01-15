@@ -1,0 +1,68 @@
+/*
+_______________________________
+Desktop version layout - place your custom code here */
+
+body {
+
+}
+
+
+
+
+/*
+_______________________________
+Mobile version - single break point */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	.examplecontainer {}
+
+	body {}
+	
+	.top-contact .table{
+        display:block;
+        margin:0;
+        width:100%;
+    }
+    
+    .top-contact .cell{
+        display:block;
+        margin:0;
+    }
+    
+    .top-contact .cell-spacer{
+        display:none;
+    }
+    
+    .top-contact img, span{
+       display:inline;
+       margin:0;
+       padding:0;
+    }
+	
+    .mission-statement{
+    font-size:110%;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    line-height:1.8;
+}
+    
+}
+
+
+/*
+_______________________________
+Provide higher res assets for higher resolution mobile screens */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+	/* An example of how to override an image with one twice the size for iPhone 4. Specify the original pixel size with background-size.
+	.download {
+	background: url(../img/downarrow@2x.png) no-repeat;
+	background-size: 27px 28px;
+	}
+	*/
+
+}
