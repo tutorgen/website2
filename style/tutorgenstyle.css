@@ -28,8 +28,7 @@ strong{
 ------------------------------------------------------------------------------*/
 
 div.title-row{
-    margin-top:20px;
-    text-align:center;   
+    margin-top:20px; 
 }
 
 
@@ -55,6 +54,46 @@ div.title-row{
    margin:0;
    padding:0;
 }
+
+ul.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:right;
+}
+
+ul.nav li{
+    display:inline;
+    height:100px;
+    line-height:100px;
+    margin-left:30px;
+}
+
+a.nav-link{
+    text-transform:uppercase;
+    color: #00347B; 
+    font-size:120%;
+    padding:10px;
+    border:1px solid transparent;
+}
+
+a.nav-link:hover{
+    color: #00347B; 
+    text-decoration:none;
+    background-color:rgba(0,52,223,.04);
+    border:1px solid rgba(0,52,123,.07);
+}
+a.nav-link:visited{
+    color: #00347B; 
+}
+a.nav-link:active{
+    color: #00347B; 
+}
+
+a.current{
+    text-decoration:underline;
+}
+    
 
 
 /*------------------------------------------------------------------------------
@@ -87,7 +126,7 @@ div.title-row{
 }
 
 .icon-row div.col_4{
-    min-height:200px;
+    min-height:250px;
     background-position:center;
     background-repeat: no-repeat;
     background-color:rgba(0,52,223,.04);
@@ -100,7 +139,7 @@ div.title-row{
     padding-right:20px;
     border:1px solid rgba(0,52,123,.07);
     height:100%;
-    min-height:200px;
+    min-height:250px;
     
 }
 
@@ -114,6 +153,19 @@ div.title-row{
 /*------------------------------------------------------------------------------
   TEAM / PROJECTS
 ------------------------------------------------------------------------------*/
+
+.team-box div.col_6{
+    min-height:300px;
+    background-color:rgba(0,52,223,.04);
+}
+
+.team-box .padder{
+    padding-left:20px;
+    padding-right:20px;
+    border:1px solid rgba(0,52,123,.07);
+    height:100%;
+    min-height:300px;
+}
 
 h3 span{
     color:#888888;
